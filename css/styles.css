@@ -10,9 +10,10 @@
 @import 'variables.css';
 
 /* components */
-@import 'components/status-bar.css';
-@import 'components/nav-bar.css';
-@import 'components/screen-header.css';
+@import 'component/status-bar.css';
+@import 'component/nav-bar.css';
+@import 'component/screen-header.css';
+@import 'component/user-component.css';
 
 /* screens */
 @import 'screens/login.css';
