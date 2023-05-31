@@ -14,6 +14,7 @@
 @import 'component/nav-bar.css';
 @import 'component/screen-header.css';
 @import 'component/user-component.css';
+@import 'component/badge.css';
 
 /* screens */
 @import 'screens/login.css';
@@ -23,4 +24,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;
     color: #353535;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
