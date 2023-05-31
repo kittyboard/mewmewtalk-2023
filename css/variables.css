@@ -1,5 +1,6 @@
 :root {
-    --yellow: #f7e111;
+    --yellow: #fae100;
     --pink: #fad6ff;
     --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }

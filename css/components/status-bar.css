@@ -3,9 +3,9 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 5px 3px;
+    padding: 7px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .status-bar__column {
@@ -13,6 +13,7 @@
 }
 .status-bar__column:first-child span {
     margin-right: 5px;
+    margin-left: 5px;
 }
 .status-bar__column:nth-child(2) {
     display: flex;
@@ -22,7 +23,16 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 5px;
 }
 .status-bar__column .fa-battery-three-quarters {
     margin: 0px 5px;
+}
+
+.battery__number {
+    margin-right: 7px;
+}
+
+.fa-battery-full {
+    margin-right: 5px;
 }
